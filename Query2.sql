@@ -1,4 +1,4 @@
--- 2. Определить список должностей компании, на которых нет сотрудников
+-- 2. РћРїСЂРµРґРµР»РёС‚СЊ СЃРїРёСЃРѕРє РґРѕР»Р¶РЅРѕСЃС‚РµР№ РєРѕРјРїР°РЅРёРё, РЅР° РєРѕС‚РѕСЂС‹С… РЅРµС‚ СЃРѕС‚СЂСѓРґРЅРёРєРѕРІ
 
 select pp.PositionName from Position pp
  left join PositionEmployee pe on pp.PositionId = pe.PositionId
