@@ -1,4 +1,4 @@
--- 5.Подсчитать длительность выполнения каждого проекта
+-- 5.РџРѕРґСЃС‡РёС‚Р°С‚СЊ РґР»РёС‚РµР»СЊРЅРѕСЃС‚СЊ РІС‹РїРѕР»РЅРµРЅРёСЏ РєР°Р¶РґРѕРіРѕ РїСЂРѕРµРєС‚Р°
 
 
 select sub.ProjectName, DATEDIFF(day, ProjectCreationDate, ProjectFinishDate) as 'Day_DurationOfProject' 
